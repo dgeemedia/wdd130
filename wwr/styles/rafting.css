@@ -1,0 +1,127 @@
+:root{
+    --primary-color--: #1E4D5F;
+    --secondary-color--: #76B8C9;
+    --accent1-color--: #FFA726;
+    --accent2-color--: #F9F9F9;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--accent2-color--);
+    color: var(--primary-color--);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color--);
+    columns: var(--accent2-color--);
+    padding: 10px 20px;
+}
+
+header img{
+    height: 50px;
+}
+
+nav a{
+    color: var(--accent2-color--);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: var(--accent1-color--);
+}
+
+.hero{
+    position: relative;
+    text-align: center;
+    color: var(--accent2-color--);
+}
+
+.hero-img{
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.hero h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(30, 77, 95, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 3em;
+    color: var(--accent2-color--);
+}
+
+.hero article{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(118, 184, 201, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    display: float;
+    align-items: center;
+}
+
+.hero article img{
+    float: right;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%
+}
+
+.hero article p{
+    text-align: justify;
+    margin: 0;
+    color: var(--accent2-color--);
+}
+*
+section{
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+section h2{
+    color: var(--primary-color--);
+    font-size: 2em;
+    border-bottom: 3px solid var(--accent1-color--);
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+section img{
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border: 2px solid var(--secondary-color--);
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: var(--primary-color--);
+    color: var(--accent2-color--);
+}
+
+footer .sociallinks img{
+    height: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+footer .sociallinks img:hover{
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}

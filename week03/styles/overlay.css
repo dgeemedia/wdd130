@@ -17,6 +17,7 @@ h2 {
 
 .herodiv {
 	margin: 10px auto;
+    position: relative;
 	/* If removed, what happens? */
 /* the section overlay moves to the bottom left of the document instead of the bottom left of the div.herodiv container */
 }
