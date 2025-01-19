@@ -25,6 +25,8 @@ header img{
     height: 50px;
 }
 
+/* Nav section */
+
 nav a{
     color: var(--accent2-color--);
     text-decoration: none;
@@ -36,6 +38,7 @@ nav a:hover{
     color: var(--accent2-color--);
 }
 
+/* Hero Section */
 .hero{
     position: relative;
     text-align: center;
