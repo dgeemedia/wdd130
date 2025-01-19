@@ -112,14 +112,18 @@ footer{
     color: var(--accent2-color--);
 }
 
-footer .sociallinks img{
+footer .sociallinks a {
+    text-decoration: none; /* Ensures links have no underline */
+}
+
+footer .sociallinks img {
     height: 30px;
     margin: 0 5px;
     cursor: pointer;
     transition: transform 0.3s;
 }
 
-footer .sociallinks img:hover{
+footer .sociallinks img:hover {
     transform: scale(1.2);
     filter: brightness(1.2);
 }
