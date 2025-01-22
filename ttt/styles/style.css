@@ -18,7 +18,6 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: var(--primary-color--);
-    columns: var(--accent2-color--);
     padding: 10px 20px;
 }
 
@@ -34,7 +33,7 @@ nav a{
 }
 
 nav a:hover{
-    color: var(--accent1-color--);
+    color: var(--accent2-color--);
 }
 
 .hero{
@@ -44,6 +43,7 @@ nav a:hover{
 }
 
 .hero-img{
+    display: block;
     width: 100%;
     height: 400px;
     object-fit: cover;
@@ -68,17 +68,22 @@ nav a:hover{
     background-color: rgba(118, 184, 201, 0.9);
     padding: 10px;
     border-radius: 5px;
-    display: flex;
-    align-items: center;
+    float: right;
 }
 
 .hero article img{
+    float: right;
     height: 50px;
     margin-right: 10px;
     border-radius: 50%
 }
 
-*
+.hero article p{
+    text-align: justify;
+    margin: 0;
+    color: var(--accent2-color--);
+}
+
 section{
     padding: 20px;
     margin: 0 auto;
@@ -107,14 +112,18 @@ footer{
     color: var(--accent2-color--);
 }
 
-footer .sociallinks img{
+footer .sociallinks a {
+    text-decoration: none; /* Ensures links have no underline */
+}
+
+footer .sociallinks img {
     height: 30px;
     margin: 0 5px;
     cursor: pointer;
     transition: transform 0.3s;
 }
 
-footer .sociallinks img:hover{
+footer .sociallinks img:hover {
     transform: scale(1.2);
     filter: brightness(1.2);
 }
