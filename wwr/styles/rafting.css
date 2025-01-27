@@ -1,8 +1,8 @@
 :root{
     --primary-color--: #1E4D5F;
-    --secondary-color--: #76B8C9;
-    --accent1-color--: #FFA726;
-    --accent2-color--: #F9F9F9;
+    --secondary-color--: #4a9ab8;
+    --accent1-color--: #FF8A00;
+    --accent2-color--: #FFFFFF;
 }
 
 body{
@@ -50,7 +50,7 @@ header img{
 }
 
 .navigation a:hover{
-    color: var(--accent2-color--);
+    color: var(--accent1-color--);
     font-weight: 700;
     text-decoration: underline;
 }
@@ -211,6 +211,7 @@ footer p{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    color: var(--accent2-color--);
 }
 
 footer .sociallinks {
